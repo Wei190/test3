@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en-US">
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/stylesheets/jquery.raty.css">
+    <link rel="stylesheet" href="lib/stylesheets/ionicons.min.css">
+    <link rel="stylesheet" href="lib/stylesheets/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="lib/stylesheets/slick.css">
+    <link rel="stylesheet" type="text/css" href="lib/stylesheets/slick-theme.css">
+    <title>Airacer_event</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+<body>
+<!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+<script type="text/javascript" src="js/jquery.min.js""></script>
+<script src="lib/javascripts/jquery.raty.js"></script>
+<script src="lib/javascripts/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/javascripts/labs.js" type="text/javascript"></script>
+<script src="https://cdn.bootcss.com/owl-carousel/1.32/owl.carousel.min.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG0_8eQax7cz6u_nlFk3kASAjAjKBRbMU&callback=initMap"async defer></script> -->
+<script type="text/javascript" src="js/materialize.min.js""></script>
+
+<script src="js/index.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> -->
+<nav class="nav-navBar white ">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo"><img src="img/logo-transparent.png" alt=""></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse">
+      <i class="iconfont icon-up"></i>
+    </a>
+    <div class="input-field field-search-top">
+        <!-- <input id="search" type="search" required placeholder="Search"> -->
+        <buttom class="search-btn">Search<i class="ion-search top-search"></i></buttom>
+        <!-- <label class="label-icon" for="search"><i class="fa fa-search c"></i></label> -->
+    </div>
+     <ul class="left hide-on-med-and-down non-drop">
+      <li class="non-drop"><a href="/introductory-flight">Discovery Flight</a></li>
+      <li class="non-drop"><a href="/flightseeing-tour">Flightseeing Tour</a></li>
+      <li class="non-drop"><a href="/pilot-training">Pilot Training</a></li>
+      <li class="non-drop"><a href="/rental">Rental</a></li>
+    </ul>
+    <ul class="right hide-on-med-and-down">
+        <!--<li class="non-drop"><a href="#" id="slideTrigger">How it works</a></li>-->
+        <li class="content-card content-card-fix">
+          <p class="content-price">From  <span>$240</span></p>
+        </li>
+      <li class="non-drop"><a href="#whyus">Why Us?</a></li>
+     	<li class="non-drop"><a href="/entity/school-learnMore" class="btn light-blue lighten-1 waves-effect waves-light">Become a Provider</a></li>
+      <li class="non-drop"><a class="authBtn">SignUp/Login</a></li>
+    </ul><!--        end of nav on the right -->
+    <ul class="side-nav non-drop" id="mobile-demo">
+        <li class="non-drop"><a href="/index.html">Home</a></li>
+        <li class="non-drop"><a href="/~introductory-flight">Discover Flights</a></li>
+        <li class="non-drop"><a href="~flightseeing-tour">Flightseeing Tour</a></li>
+        <li class="non-drop"><a href="~pilot-training">Pilot Training</a></li>
+        <li class="non-drop"><a href="~rental">Rental</a></li>
+        <li class="non-drop"><a href="/entity/school-learnMore" class="btn light-blue lighten-1 waves-effect waves-light">Become a Provider</a></li>
+        <li class="non-drop"><a class="authBtn">SignUp/Login</a></li>
+    </ul>
+    </div>
+  <div class="dropdown-search">
+      <form action="#">
+        <i class="iconfont icon-down1" id="close-dropdown"></i>
+        <div><input type="text" class="search-input" placeholder="Search for Flight School/Instructor/Code"></div>
+        <!-- <div>
+          <input type="checkbox" id="School">
+          <label for="School">Search for Flight School</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Instructor">
+          <label for="Instructor">Instructor</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Code">
+          <label for="Code">Product Code</label>
+        </div> -->
+        <button class="search-submit">Search</button>
+      </form>
+    </div>
+</nav>
+ <!--Start of Zendesk Chat Script-->
+ <!--  <script type="text/javascript">
+  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+    $.src="https://v2.zopim.com/?4bcYbrVgr20spdcVSvHJVdRocoUu8qzt";z.t=+new Date;$.
+    type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+  </script> -->
+  <!--End of Zendesk Chat Script-->
+<!-- <style>
+.forgot-btn {
+  margin-top: 20px;
+}
+</style> -->
+<div class="container header-container">
+  <div class="row">
+		<div class="col l8 s12 phone-calrousel">
+			<div class="home-tabs">
+        <div class="tabs-content">
+        	<div class="content-overlay top-nav">
+            <div class="slider slider-for slider-top" id="slider-for">
+              <div><img src="img/images/anchor1_bg.jpg" alt=""><p class="content-price phone-show">From<span>$240</span></p></div>
+              <div><img src="img/images/anchor2_bg.jpg" alt=""><p class="content-price phone-show">From  <span>$240</span></p></div>
+              <div><img src="img/images/anchor3_bg.jpg" alt=""><p class="content-price phone-show">From  <span>$240</span></p></div>
+              <div><img src="img/images/anchor4_bg.jpg" alt=""><p class="content-price phone-show">From  <span>$240</span></p></div>
+            </div>
+            <div class="slider slider-nav slider-bottom phone-hide" id="slider-nav">
+              <div class="op-first"><img src="img/images/anchor1.png" alt=""></div>
+              <div><img src="img/images/anchor2.png" alt=""></div>
+              <div><img src="img/images/anchor3.png" alt=""></div>
+              <div class="op-last"><img src="img/images/anchor4.png" alt=""></div>
+            </div>
+      		</div>
+       <!--  <script>
+          $(document).ready(function() {
+              $('.owl-carousel.owl-header').owlCarousel({
+                  loop:true,
+                  nav:false,
+                  items:1,
+                  center:false,
+              })
+            })
+        </script> -->
+          <div class="home-bottom">
+            	<ul class="row">
+            		<li class="col l2 s3" id="overview-btn"><a href="javascript::"  class="overview">Overview</a></li>
+            		<li class="col l3 s4" id="model-btn"><a href="javascript::" class="model" >Aricraft Model</a></li>
+            		<li class="col l2 s3" id="location-btn"><a href="javascript::" class="location" >Location</a></li>
+            		<li class="last-li col l2 s2 reviews" id="reviews-btn"><a href="javascript::" >Reviews</a></li>
+            	</ul>
+          </div>
+        </div>
+      </div>
+		</div>
+    <div class='col l4'>
+      <div class="content-right  phone-hide start-fix content-right-fix">
+      	<div class="place-scroc big-plane">
+      		<div  class="starType" data-score = '3'></div>
+      		<div class="reviews-box"><span>88</span>reviews</div>
+      	</div>
+      	<p class="scroc-title">PRODUCT CODE HERE</p>
+      	<div class="content-card">
+      		<h1 class="introduce">Introduction to Weight  Shift Control</h1>
+      		<p class="content-price">From  <span>$240</span></p>
+      		<div class="content-times">
+      			<p class="times-a">45 mins</p>
+      			<span class="times-case"></span>
+      			<div>
+      				<p class="times-b">
+                <b>15 mins</b>
+                <span>Ground instruction</span></p>
+      				<p class="times-c">
+                <b>30 mins</b>
+                  <span>Air experience</span></p>
+        			</div>
+        		</div>
+      		<i class="fa fa-map-marker" style="color: red; "></i><p class="content-location"> Hawthorne & Long Beach, CA</p>
+      		<a href="javascript::" class="content-submit">Request to Fly<i class="iconfont icon-up  up-btn"></i></a>
+        </div>
+        <div class="content-form">
+        	<form class="content-menu clearfix">
+        	 	<div class="input-field col l6 date-item-left">
+              <i class="iconfont icon-down1"></i>
+        			<select>
+          			<option value="" disabled selected>Date</option>
+          			<option value="1">airacer fly</option>
+         			 	<option value="2">airacer fly</option>
+          			<option value="3">airacer fly</option>
+        			</select>
+      			</div>
+      			<div class="input-field col l6  date-item-right">
+              <i class="iconfont icon-down1"></i>
+        			<select>
+          			<option value="" disabled selected>Time</option>
+          			<option value="1">2017.8.2</option>
+         			 	<option value="2">2017.8.2</option>
+          			<option value="3">2017.8.2</option>
+        			</select>
+      			</div>
+      			<p>
+          		<input type="checkbox" id="test5" style="display: none" class="filled-in">
+        		  <label for="test5">Choose flight date later </label>
+            </p>
+      			<div class="input-field">
+              <i class="iconfont icon-down1"></i>
+        			<select>
+          			<option value="" disabled selected>Passengers</option>
+          			<option value="1">airacer fly</option>
+         			 	<option value="2">airacer fly</option>
+          			<option value="3">airacer fly</option>
+        			</select>
+      			</div>
+      			<button type="submit" >FLY<i class="iconfont icon-up  up-btn"></i></button>
+          </form>
+      			<div class="content-social">
+      				<a href="#" class="content-social-save "><i class="fa fa-heart-o"></i>Save to Wishlist</a>
+      				<span class="content-social-box "><a href="#"><i class="iconfont icon-facebookicon"></i></a></span>
+      				<span class="content-social-box "><a href="#" ><i class="iconfont icon-icontwiter"></i></a></span>
+      				<span class="content-social-box "><a href="#" ><i class="iconfont icon-in"></i></a></span>
+      			</div>
+      		</div>
+        </div>
+    </div>
+    <div class="content-right col l4  s12 phone-show">
+      <div class="content-card">
+        <h1>Introduction to Weight  Shift Control</h1>
+        <p class="content-location"> Hawthorne & Long Beach,CA</p>
+        <div class="place-scroc">
+        <div  class="starType" data-score = '3'></div>
+        <span>88</span><span>reviews</span>
+      </div>
+      </div>
+     </div>
+  </div>
+</div>
+<div class="container box">
+	<div class="row">
+    <div class="col l7 s12 comment-box">
+    	<div class="comment">
+    		<div class="comment-provider">
+    			<div>
+    				<p class="note-provider">Provider:</p>
+    				<p class="provide-company">World Aviation Services LLC.</p>
+    			</div>
+    			<img src="img/blank.png" class="right">
+    		</div>
+    		<div class="comment-note">
+    			<p class="note-provider">Provider’s Note</p>
+    			<p class="note-title">When people think of learning how to fly, they usually think of either fixed wing aircraft (the common Cessna or Piper), or helicopter, like an R22. Rarely does anyone ever start off with a WSC class of aircraft, mainly</p>
+  				<a href="#" class="note-buttom1">Read more</a>
+  				<a href="#" class="note-buttom2">+ More</a>
+    		</div>
+    		<div class="comment-note" id="overview">
+    			<p class="note-provider">Provider Overview</p>
+    			<p class="note-title">When people think of learning how to fly, they usually think of either fixed wing aircraft (the common Cessna or Piper), or helicopter, like an R22. Rarely does anyone ever start off with a WSC class of aircraft, mainly</p>
+  				<a href="#" class="note-buttom1">Read more</a>
+  				<a href="#" class="note-buttom2">+ More</a>
+    		</div>
+    		<div class="comment-model" id="model">
+    			<p class="note-provider">Aircraft Model</p>
+    			<div>
+    				<img src="img/Flight Model.png">
+    				<p class="Num1">Model:</p>
+    				<p class="Num2 ">Cessna <span>172</span></p>
+    			</div>
+    			<p class="model-title">Measured by its longevity and popularity, the Cessna 172 is the most successful aircraft in history</p>
+    		</div>
+    		<div class="comment-grade"  id="reviews">
+      		<div class="grade-plane big-plane">
+      			<p class="grade-scroc">88 Reviews</p>
+    				<div class="starType" data-score = '3'>
+    				</div>
+    				<input type="text" placeholder="Search reviews">
+    				<p class="grade-head">Average Rating:</p>
+    				<p class="grade-num">4.4<span>of 5</span></p>
+    			</div>
+    			<div class="grade-progress-bar">
+  	  			<div class="grade-bar-b1 col l6 s12">
+  	  				<span class="col l4 s6">Safety</span>
+  	  				<div class="progress col l5 s6 offset-l1">
+  				      <div class="determinate" style="width: 70%"></div>
+  				  	</div>
+  	  			</div>
+  	  			<div class="grade-bar-b2 col l6 s12">
+  	  				<span class="col l4 s6">Comfort</span>
+  	  				<div class="progress col l5 s6 offset-l1">
+  				      <div class="determinate" style="width: 70%"></div>
+  				  	</div>
+  	  			</div>
+  	  			<div class="grade-bar-b3 col l6 s12">
+  	  				<span class="col l4 s6">Performance</span>
+  	  				<div class="progress col l5 s6 offset-l1">
+  				      <div class="determinate" style="width: 70%"></div>
+  				  	</div>
+  	  			</div>
+  	  			<div class="grade-bar-b4 col l6 s12">
+  	  				<span class="col l4 s6">Scenery</span>
+  	  				<div class="progress col l5 s6 offset-l1">
+  				      <div class="determinate" style="width: 70%"></div>
+  				  	</div>
+  	  			</div>
+    			</div>
+    		</div>
+    		<div class="comment-reviews">
+      		<div class="comment-user">
+      			<div class="user-name">
+      				<img src="img/user.png">
+      				<div>
+      					<p>First Name Last Name</p><span>January 2017</span>
+      				</div>
+      			</div>
+      			<div class="user-praise right">
+      				<a href="#" class="report"><i class="fa fa-flag-o"></i>Report</a>
+      				<div class="collection">
+     						<a href="#!" class="collection-item"><span class="badge">7</span><i class="fa fa-thumbs-o-up"></i>Helpful</a>
+    					</div>
+      			</div>
+      			<p class="user-title">I must start with WOW! What an amazing place. Sunrise villa is so beautiful and the staff at Green Village are very very helpful and kind. We loved our stay there and appreciate the hospitality and very beautiful and peaceful surroundings</p>
+  					<a href="#" class="user-buttom">+ More</a>
+  					<div class="user-praise-2 right">
+      				<a href="#" class="report"><i class="fa fa-flag-o"></i>Report</a>
+      				<div class="collection">
+     						<a href="#!" class="collection-item"><span class="badge">7</span><i class="fa fa-thumbs-o-up"></i>Helpful</a>
+    					</div>
+      			</div>
+      		</div>
+      		<div class="comment-user">
+      			<div class="user-name">
+      				<img src="img/user.png">
+      				<div>
+      					<p>First Name Last Name</p><span>January 2017</span>
+      				</div>
+      			</div>
+      			<div class="user-praise right">
+      				<a href="#" class="report"><i class="fa fa-flag-o"></i>Report</a>
+      				<div class="collection">
+     						<a href="#!" class="collection-item"><span class="badge">7</span><i class="fa fa-thumbs-o-up"></i>Helpful</a>
+    					</div>
+      			</div>
+      			<p class="user-title">I must start with WOW! What an amazing place. Sunrise villa is so beautiful and the staff at Green Village are very very helpful and kind. We loved our stay there and appreciate the hospitality and very beautiful and peaceful surroundings</p>
+  					<a href="#" class="user-buttom">+ More</a>
+  					<div class="user-praise-2 right">
+      				<a href="#" class="report"><i class="fa fa-flag-o"></i>Report</a>
+      				<div class="collection">
+     						<a href="#!" class="collection-item"><span class="badge">7</span><i class="fa fa-thumbs-o-up"></i>Helpful</a>
+    					</div>
+      			</div>
+      		</div>
+      		<a href="#" class="user-read">Read all reviews</a>
+      	</div>
+    	</div>
+    </div>
+  </div>
+</div>
+<div class="line-red container"></div>
+<div class="location container" id="location">
+  <h5>Location</h5>
+</div>
+  <div id="map"></div>
+    <script>
+    function initMap() {
+        var uluru = {lat: 33.7731469, lng: -118.3974526};
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          scrollwheel: false,
+          zoom: 8,
+          center: uluru,
+          zoomControl: true,
+          mapTypeControl: true,
+          scaleControl: true,
+          streetViewControl: true,
+          rotateControl: true,
+          fullscreenControl: true,
+          gestureHandling: 'cooperative',
+        });
+         var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      };
+    </script>
+<section class="serviceSection small-service container">
+  <div class="popularService">
+    <h5>Recently Viewed</h5>
+    <div class="slider" id="popularFlights" >
+      <div class="airboard-search">
+        <div class="airboard-search-box">
+          <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/3fbb231d-9134-40e3-947d-a0c6d60d6eae-15665820_1201293039919098_4294651878676790867_n%20(1).jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </div>
+      </div>
+      <div class="airboard-search">
+          <div class="airboard-search-box">
+            <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/3fbb231d-9134-40e3-947d-a0c6d60d6eae-15665820_1201293039919098_4294651878676790867_n%20(1).jpg"></div>
+            <p class="search-box-head">
+              <span>$169</span>Learn to pilot
+            </p>
+            <p class="search-box-site">
+              <span>30 mins,</span>New York City, NY
+            </p>
+            <div  class="starType" data-score = '3'></div>
+            <div class="ion-minute">
+              <span>88 </span>reviews
+            </div>
+          </div>
+        </div>
+      <div class="airboard-search">
+          <div class="airboard-search-box">
+            <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/3fbb231d-9134-40e3-947d-a0c6d60d6eae-15665820_1201293039919098_4294651878676790867_n%20(1).jpg"></div>
+            <p class="search-box-head">
+              <span>$169</span>Learn to pilot
+            </p>
+            <p class="search-box-site">
+              <span>30 mins,</span>New York City, NY
+            </p>
+            <div  class="starType" data-score = '3'></div>
+            <div class="ion-minute">
+              <span>88 </span>reviews
+            </div>
+          </div>
+        </div>
+      <div class="airboard-search">
+        <div class="airboard-search-box">
+          <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/3fbb231d-9134-40e3-947d-a0c6d60d6eae-15665820_1201293039919098_4294651878676790867_n%20(1).jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="featuredService">
+    <h5>Recommended Flight Services</h5>
+    <div class="slider" id="featuredFlights">
+      <div class="airboard-search">
+        <div class="airboard-search-box">
+          <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/fbf2a761-e20e-4991-922b-531d78fd8c31-C161016%20Airacer_DSC7383.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </div>
+      </div>
+      <div class="airboard-search">
+        <div class="airboard-search-box">
+          <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/fbf2a761-e20e-4991-922b-531d78fd8c31-C161016%20Airacer_DSC7383.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </div>
+      </div>
+      <div class="airboard-search">
+        <div class="airboard-search-box">
+          <div class="pop-flyImg"><img src="https://airacer.s3.amazonaws.com/fbf2a761-e20e-4991-922b-531d78fd8c31-C161016%20Airacer_DSC7383.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="phone_flights">
+  <h2 class="airacer-h2">Recently viewed</h2>
+  <div class="phone_banner">
+    <div class="phone_banner_box">
+      <div class="phone-search">
+        <a href="#" class="phone-search-box">
+          <div class="phone-flyImg"><img src="img/air3.png"></div>
+          <p class="phone-search-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="phone-search-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="phone-ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+      <div class="phone-search">
+        <a href="#" class="phone-search-box">
+          <div class="phone-flyImg"><img src="img/air3.png"></div>
+          <p class="phone-search-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="phone-search-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="phone-ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+      <div class="phone-search">
+        <a href="#" class="phone-search-box">
+          <div class="phone-flyImg"><img src="img/air3.png"></div>
+          <p class="phone-search-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="phone-search-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="phone-ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+      <div class="phone-search">
+        <a href="#" class="phone-search-box">
+          <div class="phone-flyImg"><img src="img/air3.png"></div>
+          <p class="phone-search-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="phone-search-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="phone-ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="mobile-footer index-footer">
+  <p>@Airacer Inc.</p>
+  <span>Terms   Privacy   Site Map</span>
+</div>
+<footer class="page-footer">
+  <div>
+    <div class="row">
+      <div class="col l12">
+        <div class="col l4 s12">
+          <a href="#!" class="brand-logo hide-on-small-only"><img src="img/logo-transparent.png" id="footer-logo" alt=""></a>
+          <p class="sloganText  text-lighten-4">Make flying accessible and affordable</p>
+        </div>
+        <div class="col l2 offset-l2 s12">
+          <h5 class="">Company</h5>
+          <ul>
+            <li><a class=" text-lighten-3" href="http://www.airacer.com/aboutUs">About Us</a></li>
+            <li><a class=" text-lighten-3" href="http://www.airacer.com/careers">Careers</a></li>
+            <li><a class=" text-lighten-3" href="http://www.airacer.com/faqs">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col l2  s12">
+          <h5 class="">Legal</h5></a>
+  					<ul>
+            <li><a class=" text-lighten-3" href="http://www.airacer.com/termsOfUse">Cancellation Policy</a></li>
+            <li><a class=" text-lighten-3" href="http://www.airacer.com/termsOfUse">Terms of Use</a></li>
+            <li><a class=" text-lighten-3" href="http://www.airacer.com/securityAndPolicy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col l2  s12">
+          <h5 class="">Contact Us</h5>
+          <ul>
+            <li><a class=" text-lighten-3">service@airacer.com</a></li>
+            <li><a class=" text-lighten-3">+1 800-213-5051</a></li>
+            <li><a class=" text-lighten-3">Mon - Fri, 9 A.M. to 5 P.M. EST</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright col l12">
+        <div class="col l4">
+          <ul class="social-media">
+            <li><a href="https://www.facebook.com/airacer.inc/"><i class="fa fa-1x fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/airacer_inc/"><i class="fa fa-1x fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/airacer_inc"><i class="fa fa-1x fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="col l7 offset-l1">
+          <a class="black-text text-lighten-4 " href="#!">©2017 Airacer Inc. All rights reserved</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- fix-btn -->
+<button id="slide-out" class="content-submit col s10 phone-show">Request to Fly<i class="iconfont icon-up  up-btn"></i></button>
+  <!-- popOut model-->
+  <ul class="top-nav request-phone phone-show">
+    <li>
+      <div class="clearfix request-phone-top"><span class="left">BOOK</span><i id="close-btn" class="ion-close close-btn right"></i></div>
+      <div class="price-box">from  $240 per passenger</div>
+      <form class="content-menu clearfix phone-content-menu">
+        <div class="input-field">
+        <i class="iconfont icon-down1"></i>
+          <select>
+            <option value="" disabled selected>Date</option>
+            <option value="1">airacer fly</option>
+            <option value="2">airacer fly</option>
+            <option value="3">airacer fly</option>
+          </select>
+        </div>
+        <div class="input-field">
+        <i class="iconfont icon-down1"></i>
+          <select>
+            <option value="" disabled selected>Time</option>
+            <option value="1">2017.8.2</option>
+            <option value="2">2017.8.2</option>
+            <option value="3">2017.8.2</option>
+          </select>
+        </div>
+        <p class="checkbox-wrap">
+          <input type="checkbox" id="test"  style="display: none">
+          <label for="test" class="chose-flight">Choose flight date later </label>
+        </p>
+        <div class="input-field">
+        <i class="iconfont icon-down1"></i>
+          <select>
+            <option value="" disabled selected>Passengers</option>
+            <option value="1">airacer fly</option>
+            <option value="2">airacer fly</option>
+            <option value="3">airacer fly</option>
+          </select>
+        </div>
+        <button type="submit" class="phnoe-request-pop">Request to Fly<i class="iconfont icon-up  up-btn"></i></button>
+        <buttom href="#" class="content-social-save "><i class="fa fa-heart-o love" style="color: #399aef;"></i>Save to Wishlist</buttom>
+      </form>
+    </li>
+  </ul>
+<!-- popOut end -->
+<script type="text/javascript">
+$(function(){
+  $('#close-btn').on('click',function closeBtn(){
+    $('.top-nav.request-phone').removeClass('open-btn');
+  });
+   // pop-btn
+  $('#slide-out').on('click',function OpenBtn(){
+    $('.top-nav.request-phone').addClass('open-btn');
+  })
+})
+</script>
+<!-- fix-btn end -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG0_8eQax7cz6u_nlFk3kASAjAjKBRbMU&callback=initMap"async defer></script>
+<script type="text/javascript">
+  $(function(){
+    $('.starType').raty({ readOnly: true, score: function() {
+      return $(this).attr('data-score');
+    } ,starType : 'i' ,starOn: 'iconfont icon-feiji light-plane',starOff: 'iconfont icon-feiji'});
+    $('#slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav',
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          }
+        },
+      ],
+    });
+    $('#slider-nav').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
+      centerMode: false,
+      focusOnSelect: true,
+    });
+    $('#popularFlights').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      centerPadding: '10px',
+      dots: false,
+      arrows: false,
+      centerMode: false,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 770,
+          settings: {
+          // infinite: true,
+          speed: 300,
+          // centerMode: true,
+          variableWidth: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: false,
+          }
+        },
+      ],
+    });
+    $('#featuredFlights').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: false,
+      centerMode: false,
+      focusOnSelect: true,
+    });
+  // scroll-overview
+    $('#overview-btn').on('click',function(){
+       $('body').animate({scrollTop: $('#overview').offset().top-74}, 1000);
+    });
+    $('#model-btn').on('click',function(){
+       $('body').animate({scrollTop: $('#model').offset().top-74}, 1000);
+    });
+    $('#location-btn').on('click',function(){
+       $('body').animate({scrollTop: $('#location').offset().top-74}, 1000);
+    });
+    $('#reviews-btn').on('click',function(){
+       $('body').animate({scrollTop: $('#reviews').offset().top-74}, 1000);
+    });
+  // fix Overview
+  $('body').on('touchmove',function(){
+    // console.log($('body').scrollTop());
+    if($('body').scrollTop() > 304){
+      $('.home-bottom').addClass('fix-homeBtn');
+      $('.nav-navBar').hide();
+    }else if($('body').scrollTop() < 304){
+      $('.home-bottom').removeClass('fix-homeBtn');
+      $('.nav-navBar').show();
+    }
+  });
+  // dropdown-search
+  $('.search-btn').on('click',function(){
+    if($('.dropdown-search').css('display') === 'none'){
+      $('.dropdown-search').fadeIn();
+    }else{
+      $('.dropdown-search').fadeOut();
+    }
+  });
+  $('.search-submit').on('click',function(){
+    $('.dropdown-search').fadeOut();
+  });
+  $('#close-dropdown').on('click',function(){
+    $('.dropdown-search').fadeOut();
+  })
+  $('#close-dropdown').on('click',function(){
+    $('.dropdown-search').fadeOut();
+  })
+  // right-bar Fix
+  $(window).scroll(function(){
+    if($('body').scrollTop() >  $('#location').offset().top-650){
+      $('.content-right.content-right-fix').fadeOut()
+      $('.content-card.content-card-fix').fadeIn()
+    }else if($('body').scrollTop() <  $('#location').offset().top-650) {
+      $('.content-right.content-right-fix').fadeIn()
+      $('.content-card.content-card-fix').fadeOut()
+    }
+    // console.log($('body').scrollTop())
+  })
+});
+</script>
+</body>
+</html>
